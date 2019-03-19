@@ -1,4 +1,8 @@
 //comment one
+//another comment but not two
+//is this comment?
+import java.awt.Font;
+
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -14,6 +18,6 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
 		GLabel label = new GLabel("Hahaha ", 200, 400);
-		add(label);
+ 		add(label);
 	}
 }
