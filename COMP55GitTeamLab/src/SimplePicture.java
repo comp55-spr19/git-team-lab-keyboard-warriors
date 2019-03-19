@@ -19,7 +19,7 @@ public class SimplePicture extends GraphicsProgram {
 		int temp = 42;
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
-		GLabel label = new GLabel("I like cheese", 200, 400);
+		GLabel label = new GLabel("I like cheese and pizza", 200, 400);
 		label.setColor(Color.BLUE);
 		label.setFont("Arial");
 		//neew change
