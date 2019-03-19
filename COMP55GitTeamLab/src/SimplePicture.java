@@ -1,6 +1,7 @@
 //comment one
 //another comment but not two
 //is this comment? no
+import java.awt.Color;
 import java.awt.Font;
 
 import acm.graphics.GImage;
@@ -18,6 +19,7 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
 		GLabel label = new GLabel("I like cheese", 200, 400);
+		label.setColor(Color.BLUE);
 		label.setFont("Arial");
 		//neew change
 	
