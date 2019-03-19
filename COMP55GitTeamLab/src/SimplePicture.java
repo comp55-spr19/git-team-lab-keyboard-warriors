@@ -17,7 +17,6 @@ public class SimplePicture extends GraphicsProgram {
 	public void run() {
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
-		//Trying to get my points for this lab!
 		GLabel label = new GLabel("I do not like cheese", 200, 400);
 		label.setFont("Arial");
 		//I am hungry. 
