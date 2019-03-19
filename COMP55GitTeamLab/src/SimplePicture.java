@@ -19,13 +19,8 @@ public class SimplePicture extends GraphicsProgram {
 		int temp = 42;
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
-<<<<<<< HEAD
 		GLabel label = new GLabel("I like cheese", 200, 400);
 		label.setColor(Color.BLUE);
-=======
-		//Trying to get my points for this lab!
-		GLabel label = new GLabel("I do not like cheese", 200, 400);
->>>>>>> branch 'master' of https://github.com/comp55-spr19/git-team-lab-keyboard-warriors.git
 		label.setFont("Arial");
 		//neew change
 	    ++temp;
