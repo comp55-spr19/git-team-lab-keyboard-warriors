@@ -1,6 +1,6 @@
 //comment one
 //another comment but not two
-//is this comment?
+//is this comment? no
 import java.awt.Font;
 
 import acm.graphics.GImage;
