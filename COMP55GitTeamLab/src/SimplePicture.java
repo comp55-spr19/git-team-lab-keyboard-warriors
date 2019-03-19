@@ -15,11 +15,13 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
+		int temp = 42;
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
 		GLabel label = new GLabel("I do not like cheese", 200, 400);
 		label.setFont("Arial");
-		//I am hungry. 
+		//neew change
+	    ++temp;
 		add(label);
 	}
 }
