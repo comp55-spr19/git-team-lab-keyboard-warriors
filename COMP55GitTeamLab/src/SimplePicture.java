@@ -10,7 +10,7 @@ import acm.program.GraphicsProgram;
 
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 700;
-	
+	//William Was doing this haha
 	public void init() {
 		setSize(SIZE, SIZE);
 	}
