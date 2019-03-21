@@ -10,11 +10,11 @@ import acm.program.GraphicsProgram;
 
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 700;
-	
+	//William Was doing this haha
 	public void init() {
 		setSize(SIZE, SIZE);
 	}
-	//7
+	
 	public void run() {
 		int temp = 90;
 		GImage robot = new GImage("robot.jpg", 200, 100);
